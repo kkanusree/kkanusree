@@ -1,0 +1,75 @@
+{
+	padding: 0;
+	margin: 0;
+	background-color: 000;
+}
+.menu{
+	text-align: left;
+}
+
+.menu ul {
+	display: inline-flex;
+	list-style: none;
+}
+
+.menu ul li {
+	margin: 25px;
+	position: relative;
+}
+
+.menu ul li {
+	padding: 8px;
+	color: yellow;
+	font-size: 30px;
+	text-decoration: none;
+	border-bottom: 2px solid purple;
+	border-radius: 20px;
+	position: relative;
+}
+
+.search {
+	top: 24px;
+	right: 20px;
+	position: absolute;
+	border: 2px solid yellow;
+}
+
+.search input {
+	font-size: 25px;
+	border: 1px solid #fff;
+	margin: 8px;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.content h2 {
+	font-size: 60px;
+	color: red;
+	margin-Left: 8%;
+	magin-top: 4%;
+	text-align: left;
+	
+}
+.content b {
+	color: red;
+	font-size: 100px;
+}
+
+.content p {
+	text-align: left;
+	font-size: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
+	color: black;
+}
+
+.photo{
+	width: 70%;
+	float: right;
+}
+.photo img {
+	width: 75%;
+	margin-top: -250px;
+	margin-left: 80px;
+	border-radius: 30%;
+}
